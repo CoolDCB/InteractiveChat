@@ -197,9 +197,9 @@ public class Events implements Listener {
 		            
 		            for (WrappedChatComponent component : components) {
 		            	if (component != null) {
-		            		if (component.getJson().contains("񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸")) {
+		            		if (component.getJson().contains("搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4")) {
 		            			event.setReadOnly(false);
-		            			component.setJson(component.getJson().replace("񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸", ""));
+		            			component.setJson(component.getJson().replace("搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4", ""));
 		            			packet.getChatComponents().write(0, component);
 		            			event.setReadOnly(true);
 		            			return;
@@ -211,9 +211,9 @@ public class Events implements Listener {
 			            	boolean is = false;
 			            	event.setReadOnly(false);
 		            		for (BaseComponent each : base) {
-		            			if (each.toLegacyText().contains("񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸")) {
+		            			if (each.toLegacyText().contains("搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4")) {
 		            				TextComponent text = (TextComponent) each;
-		            				text.setText(text.getText().replace("񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸", ""));
+		            				text.setText(text.getText().replace("搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4", ""));
 		            				is = true;
 		            			}
 		            		}
@@ -489,13 +489,13 @@ public class Events implements Listener {
 						            						if (message.getColorRaw() != null) {
 							            						if (message.getColorRaw().equals(ChatColor.WHITE) || message.getColorRaw().equals(ChatColor.RESET)) {
 							            							if (lastColor.length() > 1) {
-							            								ChatColor color = ChatColor.getByChar(lastColor.charAt(lastColor.lastIndexOf('�') + 1));
+							            								ChatColor color = ChatColor.getByChar(lastColor.charAt(lastColor.lastIndexOf('搂') + 1));
 							            								message.setColor(color);
 							            							}
 							            						}
 						            						} else {
 						            							if (lastColor.length() > 1) {
-						            								ChatColor color = ChatColor.getByChar(lastColor.charAt(lastColor.lastIndexOf('�') + 1));
+						            								ChatColor color = ChatColor.getByChar(lastColor.charAt(lastColor.lastIndexOf('搂') + 1));
 						            								message.setColor(color);
 						            							}
 						            						}
@@ -885,8 +885,8 @@ public class Events implements Listener {
 								            						
 								            						if (!InteractiveChat.itemDisplay.containsKey(time)) {
 							            								Inventory inv = Bukkit.createInventory(null, 27, ChatColor.translateAlternateColorCodes('&', PlaceholderAPI.setPlaceholders(player, title)));
-							            								ItemStack empty = new ItemStack(Material.MAGENTA_STAINED_GLASS_PANE, 1);
-							            								if (item.getType().equals(Material.MAGENTA_STAINED_GLASS_PANE)) {
+							            								ItemStack empty = new ItemStack(Material.GRAY_STAINED_GLASS_PANE, 1);
+							            								if (item.getType().equals(Material.GRAY_STAINED_GLASS_PANE)) {
 							            									empty = new ItemStack(Material.BLACK_STAINED_GLASS_PANE, 1);
 							            								}
 							            								ItemMeta emptyMeta = empty.getItemMeta();
@@ -1248,7 +1248,7 @@ public class Events implements Listener {
 		            			newText.addExtra(each);
 		            		}
 			            	
-		            		TextComponent id = new TextComponent("񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸");
+		            		TextComponent id = new TextComponent("搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4");
 		            		newText.addExtra(id);
 		            		
 			            	String stringCom = ComponentSerializer.toString(newText);
@@ -1275,7 +1275,7 @@ public class Events implements Listener {
 								}
 			            	}
 		            	} else {
-		            		TextComponent id = new TextComponent("񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸񘄸");
+		            		TextComponent id = new TextComponent("搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4搂4");
 		            		
 			            	String stringCom = ComponentSerializer.toString(id);
 			                
